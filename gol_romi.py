@@ -4,8 +4,8 @@ import pygame
 import time
 
 rules = """G A M E  O F   L I F E 
-Click on a box to turn it RED.
-Click on it again to turn it back to GREY.
+Click on a box to turn it RED (alive).
+Click on it again to turn it back to GREY (dead).
 Press the SPACE key to Start and to Pause the loop. Quit the Game by closing the window.
 The game loop goes by these following rules:
 RULE 1: Any live cell with fewer than two live neighbours dies, as if by underpopulation.
